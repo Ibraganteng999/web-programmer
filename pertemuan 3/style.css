@@ -39,3 +39,35 @@ flex: 2;
 
 }
 
+a{
+    display:inline-block;
+    text-decoration: none;
+    background-color: aqua;
+    color: blue;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 20px auto;
+    font-size: 18px;
+    box-shadow: 0 4px 6px rgb(0, 0, 0, 1);
+    align-items: center;
+
+}
+
+a:hover{
+    background-color: rgb(166, 255, 0);
+}
+
+.galeri{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.galeri img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 1);
+}
